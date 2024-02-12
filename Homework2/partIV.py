@@ -27,3 +27,5 @@ log_reg.fit(bag_of_words,y_train)
 print(log_reg.score(bag_of_words, y_train))
 dev_bow = count.transform(X_dev)
 print(log_reg.score(dev_bow, y_dev))
+
+ttttttt
